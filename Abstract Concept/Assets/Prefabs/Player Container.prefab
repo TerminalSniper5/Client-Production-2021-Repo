@@ -326,7 +326,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 58d4d5f6dfe52e44e96d1761fc021ad9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -425,7 +425,6 @@ MonoBehaviour:
   Spring: 10
   Damper: 10
   Mass: 5
-  ContractSpring: 100
 --- !u!1 &4109075217454374993
 GameObject:
   m_ObjectHideFlags: 0
