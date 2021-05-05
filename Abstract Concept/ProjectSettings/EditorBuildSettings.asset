@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Proto Build.unity
     guid: 02a68ef8bbcb1e64aabe1e76bfed47e8
   - enabled: 1
-    path: Assets/Scenes/FrogGame.unity
+    path: Assets/Litteral Junk DO NOT TOUCH/FrogGame.unity
     guid: d3aca1ebc2686f44188b2a550880ba14
   m_configObjects: {}
