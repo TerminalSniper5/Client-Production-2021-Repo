@@ -9,9 +9,13 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Proto Build.unity
+    path: Assets/Scenes/Louis - ProtoLv.unity
     guid: 02a68ef8bbcb1e64aabe1e76bfed47e8
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Litteral Junk DO NOT TOUCH/FrogGame.unity
+=======
+    path: Assets/FrogArchive/FrogGame.unity
+>>>>>>> a9e3a89fbf13409fcff4a1f74aeda2bfe6a64d82
     guid: d3aca1ebc2686f44188b2a550880ba14
   m_configObjects: {}

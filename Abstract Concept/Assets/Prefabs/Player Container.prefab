@@ -640,13 +640,13 @@ MonoBehaviour:
   playerCam: {fileID: 2930249312711121136}
   orientation: {fileID: 4109075217487640475}
   sensMultiplier: 3
-  moveSpeed: 3000
+  moveSpeed: 4000
   maxSpeed: 15
   grounded: 0
   whatIsGround:
     serializedVersion: 2
     m_Bits: 768
-  counterMovement: 0.175
+  counterMovement: 0.2
   maxSlopeAngle: 35
   slideForce: 400
   slideCounterMovement: 0.2

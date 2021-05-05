@@ -95,14 +95,12 @@ public class GrapplingGun : MonoBehaviour
 
     void ContractGrapple()
     {
-        maxDis = 0.01f;
-        joint.maxDistance = maxDis;
+        joint.maxDistance = maxDis / 10000;
     }
 
     void RelaxGrapple()
     {
-        maxDis = 0.8f;
-        joint.maxDistance = maxDis;
+        joint.maxDistance = maxDis * 10000;
     }
 
     /// <summary>
