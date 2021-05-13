@@ -203,6 +203,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4109075217770854022, guid: d303f052fd0bafc4886fb69cecfbaec6, type: 3}
+      propertyPath: graphicsObject
+      value: 
+      objectReference: {fileID: 1479701484}
     - target: {fileID: 8372864584195662383, guid: d303f052fd0bafc4886fb69cecfbaec6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.72
@@ -437,6 +441,11 @@ Transform:
   m_Father: {fileID: 1565466578}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1479701484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4109075217454374993, guid: d303f052fd0bafc4886fb69cecfbaec6, type: 3}
+  m_PrefabInstance: {fileID: 829021980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1565466577
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,6 +532,26 @@ PrefabInstance:
     - target: {fileID: 6036266970327434815, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
       propertyPath: m_Name
       value: Portals
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771414197139153957, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771414197139153957, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771414197139153957, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771414197139153957, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7771414197139153957, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca031131cf79c8b498bc58c4921516fb, type: 3}

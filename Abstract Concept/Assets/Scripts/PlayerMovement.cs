@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : PortalTraveller {
 
     //Assingables
     public Transform playerCam;
@@ -268,6 +268,18 @@ public class PlayerMovement : MonoBehaviour {
     private void StopGrounded() {
         grounded = false;
     }
-  
+
+    public override void Teleport(Transform fromPortal, Transform toPortal, Vector3 pos, Quaternion rot)
+    {
+        transform.position = pos;
+        Vector3 eulerRot = rot.eulerAngles;
+        //float delta = Mathf.DeltaAngle(smoothYaw, eulerRot.y);
+        //yaw += delta;
+        //smoothYaw += delta;
+        //transform.eulerAngles = Vector3.up * smoothYaw;
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.velocity = toPortal.TransformVector(fromPortal.InverseTransformVector(rb.velocity));
+        Physics.SyncTransforms();
+    }
 
 }
