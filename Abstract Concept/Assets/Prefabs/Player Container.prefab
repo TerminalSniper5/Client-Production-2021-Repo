@@ -637,6 +637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79c419aadabfdb14a88a6d09b9ab8cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  graphicsObject: {fileID: 4109075217454374993}
   playerCam: {fileID: 2930249312711121136}
   orientation: {fileID: 4109075217487640475}
   sensMultiplier: 3
